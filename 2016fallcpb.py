@@ -21,8 +21,8 @@ def optionaction():
     result = []
     group_sorted = []
     num_of_stud = 0
-    # 每組至多 7 人
-    max_num_in_one_group = 7
+    # 每組至多 6 人
+    max_num_in_one_group = 6
     # 電腦教室配置, 共有 9 排
     total_column = 9
     # 上面為相關變數的初始值設定, 以下開始取出 data_a 或 data_b 進行處理, 由 option3 傳回值決定
@@ -68,8 +68,8 @@ def optionaction():
     #return "總共有"+ str(num_of_stud) + "人"
     seat_by_column = []
     for row in range(max_num_in_one_group):
-    # 每組最多 7 人
-    #for row in range(7):
+    # 每組最多 6 人
+    #for row in range(6):
         # 這裡的 11 為總組數
         #for column in range(11):
         for column in range(group_num):
